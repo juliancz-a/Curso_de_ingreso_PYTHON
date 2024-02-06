@@ -5,8 +5,8 @@ from tkinter.simpledialog import askstring as prompt
 import customtkinter
 
 '''
-nombre:
-apellido:
+nombre: Julián Alejandro
+apellido: Caceres
 ---
 Ejercicio: entrada_salida_03
 ---
@@ -39,7 +39,6 @@ class App(customtkinter.CTk):
 
         alert(None, nombre_ingresado) 
 
-                
     
 if __name__ == "__main__":
     app = App()
